@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: Arial;
+}
+body{
+    direction: rtl;
+    height: 100%;
+}
+
+.menu, .foot{
+  background-color: #9C8B8B;
+  text-align: center;
+  width: 100%;
+}
+.menu{
+    height: 106px;
+    position: relative;
+}
+.menu .logo{
+    position: absolute;
+    display:block;
+    bottom: -25px;
+    right: 110px;
+    z-index: 50;
+}
+.menu ul{
+    position: relative;
+}
+.menu .formKeyWord{
+    color: white;
+    font-weight: bold;
+    font-size: 0.7em;
+    position: absolute;
+    left: 239px;
+    top: 15px;
+}
+.formKeyWord a{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.menu .listMenu{
+    position: absolute;
+    top: 60px;
+    left: 235px;
+}
+
+/*прячем подменю*/
+.menu ul ul{
+    display: none;
+    position: absolute;
+}
+/*выстраиваем по горизонтали*/
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+.menu ul li ul li {
+    display: list-item;
+}
+
+
+.menu ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-weight: bold; 
+    font-size: 0.82em;
+}
+.listMenu ul li:hover ul{
+    display: block;
+    background-color: #9C8B8B;
+    width: 120px;
+    z-index: 5;
+}
+
+.foot{
+  height: 38px;
+  position: fixed;
+  bottom: 0;
+  
+}
+.foot ul li{
+    display: inline-block;
+    
+}
+.foot ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+    
+}
+.del{
+    color:white;
+    margin: 3px;
+}
+
+
+.contentForm {
+  width: 980px;
+  margin: auto;
+  position: relative;
+ }
+
+ #buts{
+     position: absolute;
+     right: -70px;
+     top: 30px;
+ }
+ #strings{
+     position: absolute;
+     right: 70px;
+     top: 24px;
+ }
+ #buts button{
+     display: block;
+     width: 120px;
+     height: 30px;
+ }
+ #strings a, #strings span{
+    font-size: 0.75em;
+    color: #9C8B8B;
+ }
+ #hed{
+     position: absolute;
+     right: 70px;
+     top: 74px;
+ }
+ #hed h3{
+     font-size: 0.8em;
+ }
+ #cube1{
+     background-image: url("images/contact_form_bg.png") no-repeat;
+     position: absolute;
+     right: 70px;
+     top: 100px;
+ }
+ #str{
+     position: absolute;
+     right: 10px;
+     top: 10px;
+  }
+  #str p{
+      font-size: 0.68em;
+      color: #9C8B8B;
+  }
+  #str p:first-child{
+      color: blue;
+      font-weight: bold;
+  }
+   #str p:nth-child(2){
+      padding-top: 3px;
+      padding-bottom: 3px;
+      font-weight: bold;
+      color: #9C8B8B;
+  }
+  #str p:last-child{
+      color: #9C8B8B;
+      font-size: 0.65em;
+  }
+  #formForm{
+    position: absolute;
+     right: 10px;
+     top: 90px;
+  }
+  #formForm label{
+      color: #9C8B8B;
+      font-size: 0.65em;
+      display: inline-block;
+  }
+  #formForm ul{
+     width: 250px;
+      list-style-type:none;
+      list-style-position:outside;
+      margin:0px;
+      padding-right:70px;
+  }
+  #formForm li input{
+    height:20px; 
+    width:150px; 
+    padding:5px 8px;
+  }
+  #formForm label {
+    width:70px;
+    margin-top: 3px;
+    display:inline-block;
+    padding:3px;
+}
+#formForm textarea{
+    width: 230px;
+    height: 80px;
+}
+#formForm button{
+    width: 20%;
+    position: absolute;
+    left: 18px;
+}
+ 
+
+
